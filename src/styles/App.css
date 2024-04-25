@@ -1,0 +1,180 @@
+/*my Git Hub https://github.com/Takemyeye*/
+* {
+  padding: 0;
+  margin: 0;
+}
+span{
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none; 
+  color: inherit;
+}
+h4{
+  position: relative;
+  left: 20%;
+  top: 5%;
+  cursor: pointer;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #000;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.btn {
+  position: absolute;
+  right: 30px;
+  top: 5%;
+  width: auto;
+  border: 1.5px solid #fff;
+  border-radius: 15px;
+  padding: 10px 15px;
+  transition: all 0.4s ease-in;
+  font-family: 'Franklin Gothic Heavy';
+  cursor: pointer;
+}
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  transform-style: preserve-3d;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sky {
+  background: url('./img/sky.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
+  z-index: 1;
+}
+.bushes {
+  background: url('./img/bushes.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-520px) scale(2.73);
+  z-index: 2;
+}
+.water {
+  background: url('./img/water.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-400px) scale(2.33333333);
+  z-index: 3;
+}
+.people1 {
+  background: url('./img/people1.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-250px) scale(1.833333333);
+  z-index: 4;
+}
+.people2 {
+  background: url('./img/people2.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-125px) scale(1.4167);
+  z-index: 5;
+}
+.people3 {
+  background: url('./img/people3.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(0) scale(1);
+  z-index: 6;
+}
+.hero-text {
+  background: linear-gradient(
+    rgba(105, 211, 252, 0.25) 0%,
+    rgba(255, 116, 161, 0.25) 86%,
+    rgba(1, 0, 0, 0.25) 100%);
+  background-size: cover;
+  transform: translateZ(0) scale(1);
+  z-index: 7;
+}
+.hero-text h2 {
+  font-size: 1.25rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5%;
+}
+.name-container {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  height: 25rem;
+}
+.name{
+  color: white;
+  font-size: 70px;
+  font-family: 'Franklin Gothic Heavy';
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+}
+.socium{
+  position: absolute;
+  bottom: 30px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Heavy';
+  font-weight: bold;
+  z-index: 1000;
+}
+.info-container {
+  background: #000;
+  transform: translateZ(0) scale(1);
+  z-index: 8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.conteiner{
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  box-shadow: 5px 5px 50px gray;
+  border-radius: 5px;
+}
+.box1{
+  width: 100%;
+  height: 60%;
+  background: url('./img/react.jpg');
+  background-size: cover;
+  border-radius: 5px;
+}
+.box2{
+  width: 100%;
+  height: 60%;
+  background: url('./img/css.jpg');
+  background-size: contain;
+  border-radius: 5px;
+}
+.text{
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
