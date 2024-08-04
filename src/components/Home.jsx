@@ -25,21 +25,7 @@ const Home = () => {
         </div>
       </div>
       <div className="parallax__group info-container">
-        <div className='conteiner'>
-          <div className='box1'></div>
-            <div className='text'>
-              <span>React</span>
-              Create user interfaces from components.
-              Write components with code and markup
-            </div>
-        </div>
-        <div className='conteiner'>
-          <div className='box2'></div>
-            <div className='text'>
-              <span>CSS</span>
-              CSS is designed to enable the separation of content and presentation, layout, and fonts.
-            </div>
-        </div>
+        <video src="video/video-bottom.mp4" autoPlay loop muted playsInline></video>
       </div>
     </div>
   );

@@ -149,26 +149,11 @@ html,body {
   align-items: center;
   text-align: center;
 }
-.conteiner{
-  width: 200px;
-  height: 300px;
-  background-color: black;
-  box-shadow: 5px 5px 50px gray;
-  border-radius: 5px;
-}
-.box1{
+video {
+  object-fit: cover;
+  opacity: 0.2;
   width: 100%;
-  height: 60%;
-  background: url('./img/react.jpg');
-  background-size: cover;
-  border-radius: 5px;
-}
-.box2{
-  width: 100%;
-  height: 60%;
-  background: url('./img/css.jpg');
-  background-size: contain;
-  border-radius: 5px;
+  height: 100%;
 }
 .text{
   position: relative;
